@@ -1,4 +1,4 @@
-FROM wordpress:4.7.2-php7.1-apache
+FROM wordpress:4.7.3-php7.1-apache
 
 # Install FFMPEG
 RUN apt-get update && apt-get install -y libav-tools
